@@ -32,30 +32,32 @@ nav ul li a {
 }
 
 nav {
-  background-color: #134A8E; /* Toronto blue */
-  padding: 1em;
+  background-color: #134A8E;
+  padding: 1em 0;
+  text-align: center;
 }
 
 nav ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 2em;
   margin: 0;
   padding: 0;
+  display: inline-flex;
+  gap: 2em;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
   font-size: 1.1em;
+  font-weight: 600;
+  padding: 0.5em;
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  background-color: #0d3c73;
 }
-
 
 main {
   padding: 20px;
